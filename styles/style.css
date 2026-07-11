@@ -302,3 +302,37 @@ header nav ul li a {
 }
 
 /* end schedule section style  */
+/* start footer section style  */
+.footer{
+    background-color: #0D1B2A;
+    padding: 60px 0px;
+}
+.footer .footer-left{
+    color: var(--primary-color-white);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer .footer-left p{
+    font-family: var(--font-family-inter);
+    font-size: 20px;
+    font-weight: 500px;
+}
+#footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-items ul {
+    list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
+#footer-items ul li{
+    color: var(--primary-color-white);
+    font-family: var(--font-family-inter);
+    font-size: 20px;
+    font-weight: 500px;
+}
+/* end footer section style  */
