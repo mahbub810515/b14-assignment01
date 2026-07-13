@@ -277,7 +277,7 @@ header nav ul li a {
     gap: 20px;
 }
 
-.schedule .schedule-card {    
+.schedule .schedule-card {
     padding: 20px;
     display: flex;
     gap: 10px;
@@ -286,16 +286,19 @@ header nav ul li a {
     border-radius: 5px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
-.schedule .schedule-card .details{
+
+.schedule .schedule-card .details {
     margin-left: 30px;
-    padding-top: 20px;    
+    padding-top: 20px;
 }
-.schedule .schedule-card .details h3{   
+
+.schedule .schedule-card .details h3 {
     font-family: var(--font-family-inter);
     font-size: 25px;
     font-weight: 700px;
 }
-.schedule .schedule-card .details p{   
+
+.schedule .schedule-card .details p {
     font-family: var(--font-family-inter);
     font-size: 20px;
     font-weight: 500px;
@@ -303,36 +306,53 @@ header nav ul li a {
 
 /* end schedule section style  */
 /* start footer section style  */
-.footer{
+.footer {
     background-color: #0D1B2A;
-    padding: 60px 0px;
+    padding: 50px 0px;
 }
-.footer .footer-left{
-    color: var(--primary-color-white);
+
+.footer .footer-top {
     display: flex;
-    gap: 20px;
+    justify-content: space-around;
     align-items: center;
 }
-.footer .footer-left p{
-    font-family: var(--font-family-inter);
-    font-size: 20px;
-    font-weight: 500px;
+
+.footer .footer-left {
+    color: var(--primary-color-white);
 }
-#footer-items{
+
+.footer-items .footer-right ul li a {
+    text-decoration: none;
+    color: var(--primary-color-white);
+    font-size: 18px;
+    font-weight:500px ;
+}
+.footer-items .footer-right ul li a:hover{
+    color: var(--secondary-color-blue);
+}
+.footer-items .footer-right ul li a i {
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 5px;
+}
+.footer-items ul {
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    gap: 20px;
 }
-#footer-items ul {
-    list-style-type: none;
-   display: flex;
-   justify-content: space-between;
-   gap: 20px;
+.footer .footer-bottom hr {    
+    border: none;
+    border-top: 1px solid gray;
+    margin: 10px 0;         
 }
-#footer-items ul li{
-    color: var(--primary-color-white);
+.footer .footer-bottom p {
+    margin-top: 10px;
     font-family: var(--font-family-inter);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500px;
+    color: var(--primary-color-white);
+    text-align: center;
 }
+
 /* end footer section style  */
